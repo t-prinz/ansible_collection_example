@@ -1,0 +1,12 @@
+---
+- name: Test to see if collection is working
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Ping test
+      ping:
+
+
+    - name: Run sayhello role
+      include_role:
+        name: tprinz.sample_collection.sayhello
