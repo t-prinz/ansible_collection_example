@@ -8,12 +8,12 @@ Once these steps have been completed, carry out the following steps:
 
 1. Configure the ansible.cfg file to reference the private automation hub:
 
-        [galaxy]
-        server_list = private_automation_hub
-        
-        [galaxy_server.private_automation_hub]
-        url=https://private-automation-hub-server/api/galaxy/content/published/
-        token=abc123
+       [galaxy]
+       server_list = private_automation_hub
+       
+       [galaxy_server.private_automation_hub]
+       url=https://private-automation-hub-server/api/galaxy/content/published/
+       token=abc123
 
 2. Install the collection:
 
